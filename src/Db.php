@@ -65,7 +65,7 @@ class Db
      * @var array
      */
     protected static $queryMap = [
-        'mongo' => '\\think\\db\Mongo',
+        'mongo' => '\\tp51\\db\Mongo',
     ];
 
     /**
@@ -140,7 +140,7 @@ class Db
         if (!self::$query) {
             $type = strtolower(self::getConfig('type'));
 
-            $class = isset(self::$queryMap[$type]) ? self::$queryMap[$type] : '\\think\\db\\Query';
+            $class = isset(self::$queryMap[$type]) ? self::$queryMap[$type] : '\\tp51\\db\\Query';
 
             self::$query = $class;
         }

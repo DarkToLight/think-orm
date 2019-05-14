@@ -1624,7 +1624,7 @@ class Query
      *                            var_page:分页变量,
      *                            list_rows:每页数量
      *                            type:分页类名
-     * @return \think\Paginator
+     * @return \tp51\Paginator
      * @throws DbException
      */
     public function paginate($listRows = null, $simple = false, $config = [])
@@ -1645,7 +1645,7 @@ class Query
         }
 
         /** @var Paginator $class */
-        $class = false !== strpos($config['type'], '\\') ? $config['type'] : '\\think\\paginator\\driver\\' . ucwords($config['type']);
+        $class = false !== strpos($config['type'], '\\') ? $config['type'] : '\\tp51\\paginator\\driver\\' . ucwords($config['type']);
         $page  = isset($config['page']) ? (int) $config['page'] : call_user_func([
             $class,
             'getCurrentPage',

@@ -17,7 +17,7 @@ use tp51\db\Query;
  * Class Model
  * @package think
  * @mixin Query
- * @method \think\Model withAttr(array $name,\Closure $closure) 动态定义获取器
+ * @method \tp51\Model withAttr(array $name,\Closure $closure) 动态定义获取器
  */
 abstract class Model implements \JsonSerializable, \ArrayAccess
 {

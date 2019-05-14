@@ -20,7 +20,7 @@ use tp51\db\Connection;
 class Sqlite extends Connection
 {
 
-    protected $builder = '\\think\\db\\builder\\Sqlite';
+    protected $builder = '\\tp51\\db\\builder\\Sqlite';
 
     /**
      * 解析pdo连接的dsn信息

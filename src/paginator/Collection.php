@@ -26,7 +26,7 @@ use tp51\Paginator;
  * @method integer lastPage()
  * @method boolean hasPages()
  */
-class Collection extends \think\Collection
+class Collection extends \tp51\Collection
 {
 
     /** @var Paginator */

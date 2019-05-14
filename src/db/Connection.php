@@ -107,7 +107,7 @@ abstract class Connection
         // Builder类
         'builder'         => '',
         // Query类
-        'query'           => '\\think\\db\\Query',
+        'query'           => '\\tp51\\db\\Query',
         // 是否需要断线重连
         'break_reconnect' => false,
         // 数据字段缓存路径
@@ -179,7 +179,7 @@ abstract class Connection
                 throw new InvalidArgumentException('Undefined db type');
             }
 
-            $class = false !== strpos($options['type'], '\\') ? $options['type'] : '\\think\\db\\connector\\' . ucwords($options['type']);
+            $class = false !== strpos($options['type'], '\\') ? $options['type'] : '\\tp51\\db\\connector\\' . ucwords($options['type']);
             // 记录初始化信息
             self::$log[] = '[ DB ] INIT ' . $options['type'];
 
@@ -204,7 +204,7 @@ abstract class Connection
             return $this->builderClassName;
         }
 
-        return $this->getConfig('builder') ?: '\\think\\db\\builder\\' . ucfirst($this->getConfig('type'));
+        return $this->getConfig('builder') ?: '\\tp51\\db\\builder\\' . ucfirst($this->getConfig('type'));
     }
 
     /**

@@ -101,14 +101,14 @@ class BelongsToMany extends Relation
      */
     protected function newPivot($data = [], $isUpdate = false)
     {
-        $class = $this->pivotName ?: '\\think\\model\\Pivot';
+        $class = $this->pivotName ?: '\\tp51\\model\\Pivot';
         $pivot = new $class($data, $this->parent, $this->middle);
 
         if ($pivot instanceof Pivot) {
             return $isUpdate ? $pivot->isUpdate(true, $this->getUpdateWhere($data)) : $pivot;
         }
 
-        throw new Exception('pivot model must extends: \think\model\Pivot');
+        throw new Exception('pivot model must extends: \tp51\model\Pivot');
     }
 
     /**

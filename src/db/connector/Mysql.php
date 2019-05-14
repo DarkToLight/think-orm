@@ -21,7 +21,7 @@ use tp51\db\Query;
 class Mysql extends Connection
 {
 
-    protected $builder = '\\think\\db\\builder\\Mysql';
+    protected $builder = '\\tp51\\db\\builder\\Mysql';
 
     /**
      * 初始化

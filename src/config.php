@@ -54,7 +54,7 @@ Db::setConfig([
     // Builder类
     'builder'         => '',
     // Query类
-    'query'           => '\\think\\db\\Query',
+    'query'           => '\\tp51\\db\\Query',
     // 是否需要断线重连
     'break_reconnect' => false,
     // 默认分页设置
