@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db;
+namespace tp51\db;
 
 use PDO;
-use think\Exception;
+use tp51\Exception;
 
 abstract class Builder
 {

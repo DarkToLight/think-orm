@@ -9,9 +9,9 @@
 // | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://zjzit.cn>
 // +----------------------------------------------------------------------
 
-namespace think\db\exception;
+namespace tp51\db\exception;
 
-use think\Exception;
+use tp51\Exception;
 
 /**
  * Database相关异常处理类

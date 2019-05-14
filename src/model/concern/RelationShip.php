@@ -9,21 +9,21 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
-use think\Collection;
-use think\Db;
-use think\db\Query;
-use think\Model;
-use think\model\Relation;
-use think\model\relation\BelongsTo;
-use think\model\relation\BelongsToMany;
-use think\model\relation\HasMany;
-use think\model\relation\HasManyThrough;
-use think\model\relation\HasOne;
-use think\model\relation\MorphMany;
-use think\model\relation\MorphOne;
-use think\model\relation\MorphTo;
+use tp51\Collection;
+use tp51\Db;
+use tp51\db\Query;
+use tp51\Model;
+use tp51\model\Relation;
+use tp51\model\relation\BelongsTo;
+use tp51\model\relation\BelongsToMany;
+use tp51\model\relation\HasMany;
+use tp51\model\relation\HasManyThrough;
+use tp51\model\relation\HasOne;
+use tp51\model\relation\MorphMany;
+use tp51\model\relation\MorphOne;
+use tp51\model\relation\MorphTo;
 
 /**
  * 模型关联处理

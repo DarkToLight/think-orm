@@ -9,11 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
 use InvalidArgumentException;
-use think\Db;
-use think\model\Relation;
+use tp51\Db;
+use tp51\model\Relation;
 
 trait Attribute
 {

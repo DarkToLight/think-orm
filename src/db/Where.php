@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db;
+namespace tp51\db;
 
 use ArrayAccess;
 

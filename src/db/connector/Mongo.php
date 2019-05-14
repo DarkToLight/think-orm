@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace tp51\db\connector;
 
 use MongoDB\BSON\ObjectID;
 use MongoDB\Driver\BulkWrite;
@@ -22,11 +22,11 @@ use MongoDB\Driver\Manager;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use think\Collection;
-use think\Db;
-use think\db\builder\Mongo as Builder;
-use think\db\Mongo as Query;
-use think\Exception;
+use tp51\Collection;
+use tp51\Db;
+use tp51\db\builder\Mongo as Builder;
+use tp51\db\Mongo as Query;
+use tp51\Exception;
 
 /**
  * Mongo数据库驱动

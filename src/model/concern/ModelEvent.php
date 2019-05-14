@@ -9,9 +9,9 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
-use think\Db;
+use tp51\Db;
 
 /**
  * 模型事件处理

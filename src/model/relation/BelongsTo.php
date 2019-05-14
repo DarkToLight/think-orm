@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
-use think\Db;
-use think\Model;
+use tp51\Db;
+use tp51\Model;
 
 class BelongsTo extends OneToOne
 {

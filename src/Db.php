@@ -9,9 +9,9 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think;
+namespace tp51;
 
-use think\db\Query;
+use tp51\db\Query;
 
 /**
  * Class Db

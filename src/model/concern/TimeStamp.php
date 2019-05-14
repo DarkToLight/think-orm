@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
 use DateTime;
 /**

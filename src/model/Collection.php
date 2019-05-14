@@ -9,10 +9,10 @@
 // | Author: zhangyajun <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\model;
+namespace tp51\model;
 
-use think\Collection as BaseCollection;
-use think\Model;
+use tp51\Collection as BaseCollection;
+use tp51\Model;
 
 class Collection extends BaseCollection
 {

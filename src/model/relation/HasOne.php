@@ -9,11 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
-use think\Db;
-use think\db\Query;
-use think\Model;
+use tp51\Db;
+use tp51\db\Query;
+use tp51\Model;
 
 class HasOne extends OneToOne
 {

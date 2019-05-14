@@ -1,5 +1,5 @@
 {
-    "name": "topthink/think-orm",
+    "name": "tp51/think-orm",
     "description": "think orm",
     "keywords": [
         "orm",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\": "src"
+            "tp51\\": "src"
         },
         "files": [
             "src/config.php"

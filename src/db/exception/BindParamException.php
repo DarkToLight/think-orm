@@ -9,7 +9,7 @@
 // | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://zjzit.cn>
 // +----------------------------------------------------------------------
 
-namespace think\db\exception;
+namespace tp51\db\exception;
 
 /**
  * PDO参数绑定异常

@@ -1,8 +1,8 @@
 <?php
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
-use think\db\Query;
+use tp51\db\Query;
 
 /**
  * 数据软删除

@@ -9,10 +9,10 @@
 // | Author: zhangyajun <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\paginator;
+namespace tp51\paginator;
 
 use Exception;
-use think\Paginator;
+use tp51\Paginator;
 
 /**
  * Class Collection

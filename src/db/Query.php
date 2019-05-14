@@ -9,21 +9,21 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db;
+namespace tp51\db;
 
 use PDO;
-use think\Collection;
-use think\Db;
-use think\db\exception\BindParamException;
-use think\db\exception\DataNotFoundException;
-use think\db\exception\DbException;
-use think\db\exception\ModelNotFoundException;
-use think\db\exception\PDOException;
-use think\Exception;
-use think\Model;
-use think\model\Relation;
-use think\model\relation\OneToOne;
-use think\Paginator;
+use tp51\Collection;
+use tp51\Db;
+use tp51\db\exception\BindParamException;
+use tp51\db\exception\DataNotFoundException;
+use tp51\db\exception\DbException;
+use tp51\db\exception\ModelNotFoundException;
+use tp51\db\exception\PDOException;
+use tp51\Exception;
+use tp51\Model;
+use tp51\model\Relation;
+use tp51\model\relation\OneToOne;
+use tp51\Paginator;
 
 class Query
 {

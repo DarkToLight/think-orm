@@ -17,7 +17,7 @@ composer require topthink/think-orm
 
 Db类用法：
 ~~~php
-use think\Db;
+use tp51\Db;
 // 数据库配置信息设置（全局有效）
 Db::setConfig(['数据库配置参数（数组）']);
 // 进行CURD操作
@@ -50,7 +50,7 @@ Db类增加的（静态）方法包括：
 定义模型：
 ~~~php
 namespace app\index\model;
-use think\Model;
+use tp51\Model;
 class User extends Model
 {
 }

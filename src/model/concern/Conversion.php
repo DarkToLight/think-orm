@@ -9,13 +9,13 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\concern;
+namespace tp51\model\concern;
 
-use think\Collection;
-use think\Db;
-use think\Exception;
-use think\Model;
-use think\model\Collection as ModelCollection;
+use tp51\Collection;
+use tp51\Db;
+use tp51\Exception;
+use tp51\Model;
+use tp51\model\Collection as ModelCollection;
 
 /**
  * 模型数据转换处理

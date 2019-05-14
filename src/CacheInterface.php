@@ -1,6 +1,6 @@
 <?php
 
-namespace think;
+namespace tp51;
 
 /**
  * 数据库缓存接口

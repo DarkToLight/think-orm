@@ -9,9 +9,9 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model;
+namespace tp51\model;
 
-use think\Model;
+use tp51\Model;
 
 class Pivot extends Model
 {

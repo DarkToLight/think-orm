@@ -9,11 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model;
+namespace tp51\model;
 
-use think\db\Query;
-use think\Exception;
-use think\Model;
+use tp51\db\Query;
+use tp51\Exception;
+use tp51\Model;
 
 /**
  * Class Relation

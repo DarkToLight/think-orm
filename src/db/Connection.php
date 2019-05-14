@@ -9,15 +9,15 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db;
+namespace tp51\db;
 
 use Exception;
 use InvalidArgumentException;
 use PDO;
 use PDOStatement;
-use think\Db;
-use think\db\exception\BindParamException;
-use think\db\exception\PDOException;
+use tp51\Db;
+use tp51\db\exception\BindParamException;
+use tp51\db\exception\PDOException;
 
 abstract class Connection
 {

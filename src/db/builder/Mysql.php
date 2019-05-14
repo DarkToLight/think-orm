@@ -9,12 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\builder;
+namespace tp51\db\builder;
 
-use think\db\Builder;
-use think\db\Expression;
-use think\db\Query;
-use think\Exception;
+use tp51\db\Builder;
+use tp51\db\Expression;
+use tp51\db\Query;
+use tp51\Exception;
 
 /**
  * mysql数据库驱动

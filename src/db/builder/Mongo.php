@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\builder;
+namespace tp51\db\builder;
 
 use MongoDB\BSON\Javascript;
 use MongoDB\BSON\ObjectID;
@@ -16,9 +16,9 @@ use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Exception\InvalidArgumentException;
 use MongoDB\Driver\Query as MongoQuery;
-use think\db\connector\Mongo as Connection;
-use think\db\Mongo as Query;
-use think\Exception;
+use tp51\db\connector\Mongo as Connection;
+use tp51\db\Mongo as Query;
+use tp51\Exception;
 
 class Mongo
 {

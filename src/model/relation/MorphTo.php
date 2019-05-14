@@ -9,12 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\model\relation;
+namespace tp51\model\relation;
 
-use think\Db;
-use think\Exception;
-use think\Model;
-use think\model\Relation;
+use tp51\Db;
+use tp51\Exception;
+use tp51\Model;
+use tp51\model\Relation;
 
 class MorphTo extends Relation
 {

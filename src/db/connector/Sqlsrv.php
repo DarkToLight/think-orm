@@ -9,10 +9,10 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace tp51\db\connector;
 
 use PDO;
-use think\db\Connection;
+use tp51\db\Connection;
 
 /**
  * Sqlsrv数据库驱动

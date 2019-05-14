@@ -9,11 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db\connector;
+namespace tp51\db\connector;
 
 use PDO;
-use think\db\Connection;
-use think\db\Query;
+use tp51\db\Connection;
+use tp51\db\Query;
 
 /**
  * mysql数据库驱动

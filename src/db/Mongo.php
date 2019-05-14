@@ -7,7 +7,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\db;
+namespace tp51\db;
 
 use Exception;
 use MongoDB\Driver\BulkWrite;
@@ -21,8 +21,8 @@ use MongoDB\Driver\Exception\RuntimeException;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use think\db\connector\Mongo as MongoConnection;
-use think\db\Query;
+use tp51\db\connector\Mongo as MongoConnection;
+use tp51\db\Query;
 
 class Mongo extends Query
 {
